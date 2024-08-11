@@ -1,0 +1,9 @@
+https://huggingface.co/liuhaotian/llava-v1.5-13b
+https://huggingface.co/llava-hf/llava-1.5-7b-hf
+gpt-4 vison try 
+
+
+!pip install -q -U transformers==4.37.2 # Transformers library for model loading and NLP tasks
+!pip install -q -U bitsandbytes==0.41.1 accelerate==0.21.0 # bitsandbytes for memory-efficient training, and accelerate for faster model training and inference
+!pip install -q gradio gTTs # Gradio for creating interactive UIs and gTTS (Google Text-to-Speech) for converting text to speech
+!pip install -q git+https://github.com/openai/whisper.git  # Whisper library from OpenAI's GitHub repository for speech recognition

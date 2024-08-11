@@ -1,0 +1,11 @@
+transformers==4.37.2
+bitsandbytes==0.41.1
+accelerate==0.21.0
+git+https://github.com/openai/whisper.git
+gradio
+gTTS
+ipykernel
+torch
+
+
+-e .
